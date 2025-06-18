@@ -1,8 +1,6 @@
 pipeline{
     agent any
-    //environment{
-      //  PATH="$PATH:/opt/apache-maven-3.9.9/bin"
-    }
+   
     stages{
         
         stage('stage 1')
@@ -21,7 +19,7 @@ pipeline{
         {
             steps{
                 sh 'echo "this is 3rd stage"'
-}
+         }
         }
     }
 }
