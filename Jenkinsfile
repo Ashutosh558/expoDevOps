@@ -3,7 +3,7 @@ pipeline{
   
     stages{
         
-        stage('dev 1')
+        stage('dev 1 hi')
         {
            steps{
                sh 'echo "1st stage dev"'
