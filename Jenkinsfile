@@ -3,7 +3,7 @@ pipeline{
   
     stages{
         
-        stage('git clone')
+        stage('git cloning')
         {
            steps{
                echo "git https://github.com/Ashutosh558/Exponent-Maven-Web-app-DevOps.git"
